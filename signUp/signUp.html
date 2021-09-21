@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signUp.css">
+
+</head>
+
+<body>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <!-- authentication -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <!-- database -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+  <!-- Storage -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+
+
+  <script>
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+    apiKey: "AIzaSyCW6Y9BfoV1KXCPkvjJcktdAC5slF0fDDA",
+    authDomain: "smitschooling.firebaseapp.com",
+    projectId: "smitschooling",
+    storageBucket: "smitschooling.appspot.com",
+    messagingSenderId: "543494982681",
+    appId: "1:543494982681:web:f1a10ce48987510e0cae88"
+  };
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+  </script>
+
+
+
+
+
+    <div class="container">
+        <img src="Saylani-logo.png" style="width: 100%; height: 150px;" alt="">
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+
+        <label for="Name"><b>Name</b></label>
+        <input type="text" placeholder="Enter Name" name="Name" id="name" required>
+
+
+        <label for="email"><b>Email</b></label>
+        <input type="email" placeholder="Enter Email" name="Name" id="email" required>
+
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="password" required>
+
+        <label for="contact"><b>Contect No#</b></label>
+        <input type="text" placeholder="Enter Contect number" name="contact" id="contect" required>
+
+        <select name="type" id="type">
+            <option value="">select Type</option>
+            <option value="teacher">As Teacher</option>
+            <option value="web_design">Web Design</option>
+            <option value="graphic_design">Graphic Design</option>
+        </select>
+
+
+
+
+        <hr>
+
+        <button type="submit" class="registerbtn" onclick="register()" >Register</button>
+    </div>
+
+    <div class="container signin">
+        <p>Already have an account? <a href="../SignIn/signIn.html">Sign in</a>.</p>
+    </div>
+
+
+
+
+
+</body>
+<script src="signUp.js"></script>
+
+</html>

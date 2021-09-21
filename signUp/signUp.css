@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(4,101,172);
+    background: linear-gradient(90deg, rgba(4,101,172,1) 38%, rgba(139,199,65,1) 79%) ;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+    
+    width: 50%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.568) ;
+  }
+  
+  /* Full-width input fields */
+  input, select ,option{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: rgba(4,101,172,1); 
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  button {
+    background-color: #e7e7e7;
+     color: black;
+  }
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  img{
+    width: 100%;
+  }
+  
+
+
+
+
+  @media screen and (max-width: 800px) {
+    .container{
+      width: 100%;
+    }
+  }
+
+
+
+
+
+
+ /* {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  } */
+  
+ td,  th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+ tr:nth-child(even){background-color: #f2f2f2;}
+  
+ tr:hover {background-color: #ddd;}
+  
+ th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }

@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgba(4, 102, 172, 0.739);
+    background-image: url("signUp/Saylani-logo.png") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+
+}
+ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgba(51, 51, 51, 0.616);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:  rgba(139,199,65,1);
+  }
+  a.active{
+    background-color:  rgba(139,199,65,1);
+    
+  }
+
+  marquee{
+      font-size: 60px;
+      color:  rgba(139,199,65,1) ;
+  }
